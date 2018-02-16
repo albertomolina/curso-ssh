@@ -12,9 +12,7 @@ algoritmo clave_publica comentario
 Por ejemplo:
 
 ```
-ssh-rsa
-AAAAB3NzaC1yc2EAAAADAQABAAABAQDRBX9vjlI1ubaksenHNTxRobpcAlsxzgpUQSKiRIkM601o2gZES/QtKN9yEM7zKfvM1BwM/pHGMdOh5tcg76xNbePU0VJSBLxihPbzhcZJRfsin4ha9wYYO6o1CKphnBSjHFcq7OqZSu4HJcnaWshkKSySdD07MrAeIkRw6tkGs1sTYhDwE6lG2SyFIvt4gcBuJFG1LnEg87wTi3r0UHOMV9E8ar7QvCmDeYW7+GMr4xyeKVVDBpoSQl1/Ns6efv6UjGGFyV+z7UV/ZehDTJNdEKQFUWQnE7WFOSDIYdqdhhdXc5P7eNhONpx7i1bJBGh7vdJV0OSRbsQiSw3o9dPh
-alberto@mut
+ssh-rsa AAAAB3NzaC1yc2EAA...dPh alberto@mut
 ```
 
 Si queremos que utilizar un par de claves para acceder a un equipo,
@@ -39,9 +37,7 @@ instrucción:
 ```
 ssh-keygen -F 172.22.200.175
 # Host 172.22.200.175 found: line 88 
-|1|lbAkH02RqTwgJ0s0ExcofV770zk=|76Slwt4RgH0oSKrPNtCjdqZV9Lo=
-ecdsa-sha2-nistp256
-AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBOMYsI4oynXcQvdG6n63qW7wULVBrqLQMPvJekah9V42tHYUlqZE3I34UjiWlhdo8NBz+ahvr0g4pn8X/ynTO90=
+|1|lbA....9Lo= ecdsa-sha2-nistp256 AAAA.....ynTO90=
 ```
 
 ## Cambio de clave pública del servidor
