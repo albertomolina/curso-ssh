@@ -12,7 +12,7 @@
 1. Instalación de un servidor ssh
 1- Clientes ssh
 
-## Utilización de ssh
+## Bloque 3: Utilización de ssh
 
 1. Autenticación con usuario y contraseña
 1. Autenticación con claves pública/privada
@@ -22,21 +22,21 @@
 1. ssh-agent
 1. Forwarding: Agent forwarding y X forwarding
 
-## Configuración del cliente ssh
+## Bloque 4: Configuración del cliente ssh
 
 1. Configuración general del cliente ssh (ssh_config)
 1. Configuración personal del cliente ssh (~/.ssh/config)
 
-## Transferencia de ficheros a través ssh
+## Bloque 5: Transferencia de ficheros a través ssh
 
 1. Utilización de scp
 1. Utilización de sftp
 
-## Túneles ssh
+## Bloque 6: Túneles ssh
 
 1. Túneles ssh
 
-# Utilización de ssh desde windows
+## Bloque 7: Utilización de ssh desde windows
 
 1. Clientes ssh en Windows
 1. Utilización de putty
