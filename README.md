@@ -14,13 +14,13 @@
 
 ## Bloque 3: Utilización de ssh
 
-1. Autenticación con usuario y contraseña
-1. Autenticación con claves pública/privada
-1. Autenticación con claves pública/privada y frase de paso
-1. Gestión de los ficheros authorized\_keys y known\_hosts
-1. Otros métodos de autenticación
-1. ssh-agent
-1. Forwarding: Agent forwarding y X forwarding
+1. [Autenticación con usuario y contraseña](b3/user-pass)
+1. [Autenticación con claves pública/privada](b3/pubkey)
+1. [Autenticación con claves pública/privada y frase de paso](b3/pubkey-passphrase)
+1. [Gestión de los ficheros authorized\_keys y known\_hosts](b3/gest-fich)
+1. [Otros métodos de autenticación](b3/otros)
+1. [ssh-agent](b3/ssh-agent)
+1. [Forwarding: Agent forwarding y X forwarding](b3/forwarding)
 
 ## Bloque 4: Configuración del cliente ssh
 
