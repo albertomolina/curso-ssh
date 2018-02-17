@@ -44,8 +44,8 @@ acceso, la introducimos y accedemos a una shell en el equipo remoto:
 
 
 ```
-usuario@172.22.200.175's password: **********
 Warning: Permanently added '172.22.200.175' (ECDSA) to the list of known hosts.
+usuario@172.22.200.175's password: **********
 Last login: Fri Feb 16 17:34:41 2018 from 172.23.0.22
 usuario@host:~$ 
 ```
