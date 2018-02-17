@@ -39,9 +39,12 @@ ECDSA key fingerprint is SHA256:Bsv9OS7Qf94ANguOiDLNPHn7J+XlwisWZydmfqa4QMo.
 Are you sure you want to continue connecting (yes/no)? 
 ```
 
-A lo que tecleamos "yes" y accedemos al equipo
+A lo que tecleamos "yes" y a continuación nos pide la contraseña de
+acceso, la introducimos y accedemos a una shell en el equipo remoto:
+
 
 ```
+usuario@172.22.200.175's password: **********
 Warning: Permanently added '172.22.200.175' (ECDSA) to the list of known hosts.
 Last login: Fri Feb 16 17:34:41 2018 from 172.23.0.22
 usuario@host:~$ 
