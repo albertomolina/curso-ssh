@@ -47,6 +47,22 @@ Last login: Fri Feb 16 17:34:41 2018 from 172.23.0.22
 usuario@host:~$ 
 ```
 
+## Ejecución remota
+
+SSH permite ejecutar una orden remotamente de forma no interactiva, lo
+que resulta muy cómodo cuando hay que realizar tareas muy específicas
+en un equipo remoto. Por ejemplo:
+
+```
+ssh usuario@172.22.200.175 sudo apt update
+```
+
+También se pueden encadenar varias órdenes o ejecutar un script:
+
+```
+ssh usuario@172.22.200.175 'sudo apt update && sudo apt upgrade'
+```
+
 ## Consideraciones acerca de root
 
 Se puede restringir el acceso con el usuario root utilizando
