@@ -9,7 +9,7 @@
 
 ## Bloque 2: Instalación entorno de pruebas
 
-1. Instalación de un servidor ssh
+1. [Instalación de un servidor ssh](b2/sshd)
 1. Clientes ssh
 
 ## Bloque 3: Utilización de ssh
