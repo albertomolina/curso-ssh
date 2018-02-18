@@ -157,3 +157,17 @@ virtuales en algún proveedor de nube de infraestructura pública o
 privada (AWS, Azure, OpenStack, etc.), en estos casos es
 imprescindible utilizar este mecanismo de clave pública/privada para
 acceder a estas máquinas virtuales.
+
+## Generación de una clave pública a partir de la privada
+
+Aunque habitualmente se generan ambas claves, en diferentes
+circunstancias puede ocurrir que tengamos la clave privada, pero no la
+correspondiente clave pública, en ese caso podemos utilizar ssh-keygen
+para obtenerla:
+
+```
+ssh-keygen -y -f clave >> clave.pub
+```
+
+Evidentemente si tenemos la clave pública y no la privada, no podemos
+hacer el proceso inverso.
