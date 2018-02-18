@@ -171,3 +171,12 @@ ssh-keygen -y -f clave >> clave.pub
 
 Evidentemente si tenemos la clave pública y no la privada, no podemos
 hacer el proceso inverso.
+
+## Utilización en procesos no interactivos
+
+Puesto que teniendo acceso a la clave privada el acceso se puede
+realizar al equipo remoto sin ninguna intervención, este mecanismo es
+ideal para su utilización en procesos que no requieran intervención
+humana, como muchas conexiones que pueden realizarse entre diferentes
+equipos. La conexión es segura y autenticada, aunque es muy importante
+custodiar adecuadamente las claves privadas.
