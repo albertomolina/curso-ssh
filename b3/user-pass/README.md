@@ -39,8 +39,21 @@ ECDSA key fingerprint is SHA256:Bsv9OS7Qf94ANguOiDLNPHn7J+XlwisWZydmfqa4QMo.
 Are you sure you want to continue connecting (yes/no)? 
 ```
 
-A lo que tecleamos "yes" y a continuación nos pide la contraseña de
-acceso, la introducimos y accedemos a una shell en el equipo remoto:
+Para verificar el servidor, en lugar de mostrarnos la clave pública
+completa, nos muestra la huella (*fingerprint*) de la clave pública
+del servidor, que no es más que un hash de la clave pública, en este
+caso utlizando SHA256. Podemos comprobar la correspondencia entre la
+clave pública y la huella mediante la instrucción:
+
+```
+ssh-keygen -l -E sha256 -f fichero_con_clave_publica
+```
+
+Podríamos hablar con detalle de la forma efectiva de verificar las
+claves públicas, pero en este momento aceptamos la clave que se nos
+ofrece y por tanto tecleamos "yes" y a continuación nos pide la
+contraseña de acceso, la introducimos y accedemos a una shell en el
+equipo remoto:
 
 
 ```
