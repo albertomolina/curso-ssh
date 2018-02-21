@@ -24,6 +24,10 @@ ps aux |grep ssh-agent
 alberto   2743  .... ..... 0:00 /usr/bin/ssh-agent x-session-manager
 ```
 
+De hecho, si tuviéramos alguna clave privada sin frase de paso se
+habría cargado automáticamente en el agente ssh y podríamos utilizarla
+de forma totalmente transparente.
+
 ## Añadir una clave privada a ssh-agent
 
 Mediante la herramienta ssh-add podemos añadir una clave al agente
