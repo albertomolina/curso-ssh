@@ -104,14 +104,15 @@ GSSAPIAuthentication no
 
 Host 192.168.1.1
      User root
-	 Port 2022
-	 ForwardAgent yes
-	 Identityfile ~/.ssh/id_ecdsa
-	 StrictHostKeyChecking yes
+     Port 2022
+     ForwardAgent yes
+     Identityfile ~/.ssh/id_ecdsa
+     StrictHostKeyChecking yes
 	 
 Host *.example.com
      StrictHostKeyChecking no
-	 UserKnownHostsFile=/dev/null
+     UserKnownHostsFile=/dev/null
+     LogLevel QUIET
 ```
 
 ## Utilizar parámetros directamente
