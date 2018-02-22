@@ -86,6 +86,44 @@ por la opción "no", no se hará ninguna verificación.
 
 Fichero known\_hosts de usuario, por defecto ~/.ssh/known\_hosts
 
+## Configuración por usuario
+
+Salvo algunos parámetros generales, es poco probable que la mayoría de
+los parámetros que se pueden definir para el cliente ssh sean útiles
+para todos los usuarios de un equipo, es mucho más habitual que un
+usuario defina un fichero de configuración con sus propios
+parámetros. Este fichero es ~/.ssh/config y los parámetros aquí
+definidos prevalecen sobre los generales.
+
+Se pueden definir parámetros para todos los equipos remotos, pero es
+también muy útil agruparlos con el parámetro Host como en el siguiente
+ejemplo:
+
+```
+GSSAPIAuthentication no
+
+Host 192.168.1.1
+     User root
+	 Port 2022
+	 ForwardAgent yes
+	 Identityfile ~/.ssh/id_ecdsa
+	 StrictHostKeyChecking yes
+	 
+Host *.example.com
+     StrictHostKeyChecking no
+	 UserKnownHostsFile=/dev/null
+```
+
+## Utilizar parámetros directamente
+
+Independientemente de los parámetros que estén definidos en cualquiera
+de las opciones anteriores, también es posible utilizar parámetros de
+forma explícita en la propia línea de comandos, pasándolos mediante el
+modificador "-o", por ejemplo:
+
+```
+ssh -o "ForwardAgent yes" usuario@172.22.200.175
+```
 
 
 
