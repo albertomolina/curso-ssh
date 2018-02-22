@@ -52,7 +52,7 @@ X11DisplayOffset, por ejemplo:
 
 ```
 env |grep DISPLAY
-DISPLAY=localhost:0
+DISPLAY=localhost:10
 ```
 
 Al ejecutar una aplicación en el equipo remoto sobre la conexión ssh
