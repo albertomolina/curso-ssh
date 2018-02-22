@@ -5,7 +5,8 @@ una sesión y es muy útil cuando usamos claves con frase de paso, ya
 que podemos añadir la clave privada al agente ssh y sólo tendremos que
 poner la frase de paso una vez, permitiendo utilizar ssh de forma 
 transparente sin volver a introducir la frase de paso todo el tiempo
-que dure la sesión del usuario.
+que dure la sesión del usuario (realmente se puede limitar a una
+cantidad de tiempo menor si se desea).
 
 ssh-agent se suele ejecutar automáticamente en las sesiones gráficas
 de los sistemas, como podemos verificar mediante:
