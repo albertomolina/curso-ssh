@@ -8,3 +8,6 @@ más habitual utilizarlo desde línea de comandos, mientras que sftp se
 puede utilizar bien desde la línea de comandos o a través de uno de
 los múltiples clientes ftp que lo soportan.
 
+Es importante no confundir sftp (ssh ftp) con ftps que es una
+extensión del protocolo ftp añadiendo ssl para el cifrado de la
+conexión.
