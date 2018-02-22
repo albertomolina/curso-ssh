@@ -23,12 +23,12 @@
 
 ## Bloque 4: Configuración del cliente ssh
 
-1. Configuración del cliente ssh (b4/configuracion_ssh)
+1. [Configuración del cliente ssh](b4/configuracion_ssh)
 
 ## Bloque 5: Transferencia de ficheros a través ssh
 
-1. Utilización de scp (b5/scp)
-1. Utilización de sftp (b5/sftp)
+1. [Utilización de scp](b5/scp)
+1. [Utilización de sftp](b5/sftp)
 
 ## Bloque 6: Túneles ssh
 

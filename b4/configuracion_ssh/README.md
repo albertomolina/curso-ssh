@@ -60,3 +60,32 @@ EscapeChar ~
 
 Para ejecutarlo escribiríamos la secuencia "~."
 
+### ForwardAgent, ForwardX11
+
+Explicados en la sección específica de forwarding
+
+### GlobalKnownHostsFile fichero
+
+Permite la utilización de un fichero known_hosts para todos los
+usuarios de un equipo.
+
+### NumberOfPasswordPrompts
+
+Número de intentos de acceso con contraseña. Por defecto es 3
+
+### StrictHostKeyChecking yes|ask|no
+
+Parámetro muy importante, utiliza para la gestión de las claves
+públicas de los equipos remotos. La opción por defecto es "ask", de
+manera que si no se ha almacenado previamente la clave pública se
+pregunta qué hacer. En el caso de ponerla en "yes", se rechazará una
+conexión si no existe previamente la clave pública y en caso de optar
+por la opción "no", no se hará ninguna verificación.
+
+### UserKnownHostsFile fichero
+
+Fichero known\_hosts de usuario, por defecto ~/.ssh/known\_hosts
+
+
+
+
