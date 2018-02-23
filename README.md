@@ -21,9 +21,10 @@
 1. [ssh-agent](b3/ssh-agent)
 1. [Forwarding: Agent forwarding y X forwarding](b3/forwarding)
 
-## Bloque 4: Configuración del cliente ssh
+## Bloque 4: Configuración de ssh
 
 1. [Configuración del cliente ssh](b4/configuracion_ssh)
+1. [Configuración del servidor ssh](b4/configuracion_sshd)
 
 ## Bloque 5: Transferencia de ficheros a través ssh
 
