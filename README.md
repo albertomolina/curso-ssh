@@ -32,7 +32,7 @@
 
 ## Bloque 6: Túneles ssh
 
-1. Túneles ssh
+1. [Túneles ssh](b6/tuneles)
 
 ## Bloque 7: Utilización de ssh desde windows
 
