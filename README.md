@@ -17,8 +17,8 @@
 1. [Autenticación con usuario y contraseña](b3/user-pass)
 1. [Autenticación con claves pública/privada](b3/pubkey)
 1. [Autenticación con claves pública/privada y frase de paso](b3/pubkey-passphrase)
-1. [Gestión de los ficheros authorized\_keys y known\_hosts](b3/gest-fich)
 1. [ssh-agent](b3/ssh-agent)
+1. [Gestión de los ficheros authorized\_keys y known\_hosts](b3/gest-fich)
 1. [Forwarding: Agent forwarding y X forwarding](b3/forwarding)
 
 ## Bloque 4: Configuración de ssh
